@@ -1,0 +1,3 @@
+In this example, we wrap the JSX elements inside the functional component in a Suspense component. The Suspense component is a new feature in React that was introduced as part of the Fiber architecture. It allows you to "suspend" the rendering of a component until some condition is met (such as data being loaded from an API). While the component is suspended, the fallback prop is displayed.
+
+In this case, we are using the Suspense component to show a loading indicator while the component is suspended. Once the component is ready to render, it will display the JSX elements inside the Suspense component.
