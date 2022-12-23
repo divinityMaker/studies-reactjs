@@ -1,0 +1,1 @@
+Error boundary is a component that is designed to catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of the component tree that crashed. Error boundaries are useful for displaying a user-friendly message to the user when something goes wrong, rather than just having the application crash.
