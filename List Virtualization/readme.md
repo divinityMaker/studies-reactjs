@@ -18,3 +18,7 @@ const MyList = () => (
 );
 
 This will render a list with a fixed height of 300 pixels, and list items with a height of 50 pixels. As the user scrolls through the list, the scroll event listener will log a message indicating which items are being rendered.
+
+---
+
+Can be used to improve the performance of lists with a large number of items by only rendering the items that are currently visible on the screen. This can be especially useful in cases where the list items are complex or take a long time to render, as it reduces the number of items that need to be rendered at any given time, improving the overall performance of the application.
